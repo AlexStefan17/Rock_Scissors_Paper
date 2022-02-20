@@ -1,0 +1,91 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {
+    background-color: #566573;
+    font-family: Josefin Sans,sans-serif;
+    color: #F0F3F4;
+}
+
+
+.title {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 50px;
+
+}
+
+.table_score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid #1B2631 3px;
+    width: 100px;
+    height: 40px;
+    margin: 0px 20px;
+    border-radius: 10px;
+}
+
+.user-score, .computer-score {
+    font-size: 35px;
+}
+
+.player, .computer {
+    font-size: 30px;
+}
+
+.p1 , .p2, .p3{
+    margin: 40px 0;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+
+.imgs_player, .imgs_computer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.rock,.paper,.scissors {
+    font-size: 100px;
+    margin: 30px
+    padding: 0;
+    border: solid black 3px;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0 10px;
+    background-color: #D0D3D4;
+    transition: all 0.3 ease;
+}
+
+.rock_comp,.paper_comp,.scissors_comp {
+    font-size: 100px;
+    margin: 30px
+    padding: 0;
+    border: solid black 3px;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0 10px;
+    background-color: #D0D3D4;
+    transition: all 0.3 ease;
+} 
+
+.rock:hover,.paper:hover,.scissors:hover {
+    background-color: #34495E;
+    cursor: pointer;
+} 
+
+.border {
+    transform: scale(1,1);
+    border-color: #1C2833;
+    box-shadow: 0 0 3rem #D5D8DC;
+}
